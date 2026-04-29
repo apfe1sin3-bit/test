@@ -1,3 +1,31 @@
+.hero {
+    max-width: 1200px;
+    margin: 80px auto 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
+
 /* W3.CSS 5.01 March 11 2026 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
