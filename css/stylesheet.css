@@ -24,7 +24,16 @@
     border-radius: 10px;
 }
 
+.w3-quarter {
+    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
 
+.w3-quarter:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
 
 
 
@@ -289,13 +298,3 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     border-radius: 8px;
 }
 
-.w3-quarter {
-    padding: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    cursor: pointer;
-}
-
-.w3-quarter:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-}
