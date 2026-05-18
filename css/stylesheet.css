@@ -28,6 +28,8 @@
 
 
 
+
+
 /* W3.CSS 5.01 March 11 2026 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
@@ -285,4 +287,15 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.w3-quarter {
+    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.w3-quarter:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }

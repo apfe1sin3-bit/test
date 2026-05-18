@@ -23,15 +23,29 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 
 <div class="hero">
     <h1>Кето диета для начинающих</h1>
-   <!--  <p>Простое кето: меню, рецепты и советы</p>-->
+   <!-- <p>
+      <a href="#food" class="w3-button w3-black w3-margin-top">
+         Начать кето
+      </a>  
+    </p>-->
     <img src="img/ai-slop.png" alt="Кето продукты">
+</div>
+
+<div class="w3-container w3-padding-32 w3-center">
+  <h2>Что такое кето диета?</h2>
+  <p>
+    Кето диета — это низкоуглеводный рацион, при котором организм
+    использует жир как основной источник энергии.
+  </p>
 </div>
 
 <!-- Top menu -->
 <div class="w3-top">
   <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
     <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
-    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-right w3-padding-16">
+      <a href="#about">О нас</a>
+    </div>
 
     <!--<div class="w3-center w3-padding-16">Простое Кето</div> -->
   </div>
@@ -42,27 +56,43 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 
   <!-- First Photo Grid-->
   <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    
+    <a href="keto.html" style="text-decoration:none">
     <div class="w3-quarter">
       <img src="img/keto.jpg">
       <h3>Кето диета для начинающих</h3>
       <p>С чего начать?</p>
     </div>
-    <div class="w3-quarter">
-      <img src="img/recipes.jpg">
-      <h3>Кето диета: меню и рецепты</h3>
-      <p>Полезные рецепты для кето диеты</p>
-    </div>
+    </a>
+    
+    <a href="recipes.html" style="text-decoration:none">
+      <div class="w3-quarter">
+        <img src="img/recipes.jpg">
+        <h3>Кето диета: меню и рецепты</h3>
+        <p>Полезные рецепты для кето диеты</p>
+      </div>
+    </a>
+   
+
+    <a href="weight-loss.html" style="text-decoration:none">
     <div class="w3-quarter">
       <img src="img/weight-loss.jpg">
       <h3>Кето для похудения</h3>
       <p>Как эффективно снижать вес на кето диете</p>
     </div>
+    </a>
+
+    <a href="products.html" style="text-decoration:none">
     <div class="w3-quarter">
       <img src="img/products.jpg">
       <h3>Таблица продуктов</h3>
       <p>Идем за покупками</p>
     </div>
+    </a>
+
   </div>
+
+  
   
   <!-- Second Photo Grid
   <div class="w3-row-padding w3-padding-16 w3-center">
@@ -99,6 +129,22 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
     </div>
   </div>
+
+
+  <div class="w3-row-padding w3-padding-32 w3-center">
+  <div class="w3-third">
+    <h3>🔥Похудение</h3>
+    <p>Сжигание жира без голода</p>
+  </div>
+  <div class="w3-third">
+    <h3>⚡Энергия</h3>
+    <p>Стабильный уровень энергии</p>
+  </div>
+  <div class="w3-third">
+    <h3>🥑Простота</h3>
+    <p>Минимум сложных правил</p>
+  </div>
+</div>
   
   <hr id="about">
 
@@ -113,8 +159,38 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
     </div>
   </div>
   <hr>-->
+
+<footer class="w3-center w3-padding-32" style="background:#f5f5f5; margin-top:40px">
+
+  <h3>Простое Кето</h3>
+
+  <p style="max-width:600px; margin:auto">
+    Простые советы, рецепты и меню для комфортного перехода
+    на кето диету.
+  </p>
+
+  <div style="margin-top:20px">
+    <a href="#" style="text-decoration:none; margin:0 10px">Главная</a>
+    <a href="#" style="text-decoration:none; margin:0 10px">Рецепты</a>
+    <a href="#" style="text-decoration:none; margin:0 10px">Продукты</a>
+  </div>
+
+  <p style="margin-top:25px; color:gray; font-size:14px">
+    <p style="max-width:700px; margin:25px auto 0; color:gray; font-size:13px">
+  Информация на сайте носит ознакомительный характер и не заменяет
+  консультацию врача или специалиста по питанию. Перед изменением
+  рациона рекомендуется проконсультироваться со специалистом.
+</p>
+    © 2026 Простое Кето
+  </p>
+
+</footer>
+
+
+
+
   
-  <!-- Footer -->
+  <!-- default Footer 
   <footer class="w3-row-padding w3-padding-32">
     <div class="w3-third">
       <h3>FOOTER</h3>
@@ -136,7 +212,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
           <span>Praes tinci sed</span>
         </li> 
       </ul>
-    </div>
+    </div>-->
+
+
+
     <!-- 
     <div class="w3-third w3-serif">
       <h3>POPULAR TAGS</h3>
