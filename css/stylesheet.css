@@ -400,5 +400,15 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     font-size: 28px;
 }
 
+.small-hero {
+    margin: 70px auto 20px;
+    padding: 0;
+}
 
+.small-hero h1 {
+    font-size: 40px;
+}
 
+.w3-sidebar, .w3-sidebar a {
+    font-family: "Karma", sans-serif;
+}
